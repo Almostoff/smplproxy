@@ -1,0 +1,33 @@
+
+GET  http://localhost:8080/test/101 HTTP/1.1
+content-type: application/json
+
+###
+
+POST http://localhost:8080/test HTTP/1.1
+content-type: application/json
+
+{"data":"testdata"}
+
+# 200 Ok 
+
+###
+
+PATCH http://localhost:8080/test HTTP/1.1
+content-type: application/json
+
+{"data":"testdata"}
+
+###
+
+DELETE http://localhost:8080/test/101 HTTP/1.1
+content-type: application/json
+
+###
+
+PUT  http://localhost:8080/test HTTP/1.1
+content-type: application/json
+
+{"data":"testdata"}
+
+###
